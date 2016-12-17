@@ -68,9 +68,9 @@ mobs:
   # Include tamed cats
   cat: true
   # Include Iron golems
-  golem: false
+  golem: true
   # Include witches
-  witch: false
+  witch: true
   # Include wither skeletons
   witherskeleton: true
   # Include wither
@@ -89,39 +89,18 @@ mobs:
   magmacube: true
   # Include guardian
   guardian: true
-  # Mo'Creatures Mobs
-  horse: false
-  fireogre: false
-  caveogre: false
-  ogre: false
-  boar: false
+  # Include shulker
+  shulker: true
+  # Include polarbear
   polarbear: false
-  bear: false
-  duck: false
-  bigcat: false
-  deer: false
-  wildwolf: false
-  flamewraith: false
-  wraith: false
-  bunny: false
-  bird: false
-  fox: false
-  werewolf: false
-  shark: false
-  dolphin: false
-  fishy: false
-  kitty: false
-  hellrat: false
-  rat: false
-  mouse: false
-  scorpion: false
-  turtle: false
-  crocodile: false
-  ray: false
-  jellyfish: false
-  goat: false
-  snake: false
-  ostrich: false
+  # Include evoker
+  evoker: true
+  # Include vex
+  vex: true
+  # Include vindicator
+  vindicator: true
+  # Include llama
+  llama: false
 
 vehicles:
   # Specific minecart types

@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'idea'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '1.2.4'
+}
+
+sourceCompatibility = 1.8
+mainClassName = 'org.dynmap.mobs.DynmapMobsPlugin'
+
+idea {
+    module {
+        downloadJavadoc = true
+    }
+}
+
+eclipse {
+    classpath {
+        downloadJavadoc = true
+    }
+}
+
+repositories {
+    jcenter()
+    maven {
+        url "https://hub.spigotmc.org/nexus/content/repositories/public/"
+    }
+    maven {
+        url "http://repo.md-5.net/content/groups/public/"
+    }
+    maven {
+        url "https://oss.sonatype.org/content/groups/public/"
+    }
+	maven {
+		url "http://repo.bukkit.org/content/repositories/releases/"
+	}
+	maven {
+		url "http://repo.mikeprimm.com/"
+	}
+}
+
+dependencies {
+    compile 'org.spigotmc:spigot-api:1.11-R0.1-SNAPSHOT'
+	compile 'us.dynmap:dynmap-api:2.2-SNAPSHOT'
+}
